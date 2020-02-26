@@ -13,7 +13,7 @@ class Triangle
       raise TriangleError
     end 
     
-    if @length+@length_2<@length_3 || @length + @length_3 < @length_2 || @length_2+@length_3<@length 
+    if @length+@length_2<=@length_3 || @length + @length_3 <=@length_2 || @length_2+@length_3<=@length 
         raise TriangleError
       end 
     if @length == @length_2 && @length_3 == @length
