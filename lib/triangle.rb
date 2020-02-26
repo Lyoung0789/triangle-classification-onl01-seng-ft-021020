@@ -13,8 +13,7 @@ class Triangle
       return :equilateral
     elsif @length == @length_2 || @length_2 == @length_3 || @length == @length_3
       return :isosceles
-    elsif
-    
+
     end 
   end 
 
