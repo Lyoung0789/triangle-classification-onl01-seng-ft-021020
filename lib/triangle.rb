@@ -11,6 +11,7 @@ class Triangle
   def kind 
     if @length <= 0 || @length_2 <=0 || @length_3 <= 0
       raise TriangleError
+    end 
     if @length == @length_2 && @length_3 == @length
       return :equilateral
     elsif @length == @length_2 || @length_2 == @length_3 || @length == @length_3
