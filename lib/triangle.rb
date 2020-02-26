@@ -9,9 +9,12 @@ class Triangle
   end 
   
   def kind 
-    if length == length_2 && length_3 == length
+    if @length == @length_2 && @length_3 == @length
       return :equilateral
-    else if length == length_2 || length
+    elsif @length == @length_2 || @length_2 == @length_3 || @length == @length_3
+      return :isosceles
+    elsif
+    
     end 
   end 
 
